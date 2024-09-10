@@ -1,9 +1,9 @@
-version: '3'
+name: license_master
 
 services:
   postgres:
     image: postgres:15.7
-    container_name: database
+    container_name: license_master_database
     environment:
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
